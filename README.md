@@ -5,7 +5,7 @@ It doesn't do much in itself other than give you a bash shell that you can run t
 ## Usage
 
 ```
-docker create \
+docker run -it \
   -v </path/to/folder/to/dedupe>:/dedupe \
   -v </path/to/store/output>:/output \
   digitalpardoe/rmlint
